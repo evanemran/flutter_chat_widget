@@ -1,39 +1,56 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# flutter_chat_widgets
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+This library contains necessary widgets for chat application ui. All the components are customizable. 
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+* Github: https://github.com/evanemran/flutter_chat_widget
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Chat Dialogs Widget
+* Message Bar Widget
+* Highly Customizable
+
+<img src="https://github.com/evanemran/flutter_chat_widget/raw/master/assets/flutter_chat_widgets.png" width="450">
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this widget there is not any special requirement. IF you have flutter installed you can directly start using this.
 
-## Usage
+## How to Use
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+**Add This Library:**
 
-```dart
-const like = 'sample';
+Add this line to your dependencies:
+
+```
+flutter_chat_widget: ^0.0.1
 ```
 
-## Additional information
+**Create Chat Bubbles**
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+//for sent messages
+SentMessage(
+  message: item.text,
+  background: Colors.blueAccent,
+  textColor: Colors.white,
+)
+
+//for received messages
+ReceivedMessage(
+  message: item.text,
+  background: Colors.black12,
+  textColor: Colors.black,
+)
+```
+**Create Message Bar**
+
+```dart
+MessageBar(onCLicked: (text) {
+  // send data to server
+})
+```
+
+## Conclusion
+
+This is an initial release of the package. If you find any issue please let me know I will fix it accordingly.

@@ -1,3 +1,5 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial Release
+* Sender & Receiver Widget
+* MessageBar Widget
