@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_widget/chat_colors.dart';
 
 import 'dart:math' as math;
 
@@ -8,7 +9,7 @@ class ReceivedMessage extends StatelessWidget {
   const ReceivedMessage(
       {Key? key,
         required this.message,
-        this.background = Colors.red,
+        this.background = ChatColors.received,
         this.textColor = Colors.black})
       : super(key: key);
 
