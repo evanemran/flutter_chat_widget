@@ -10,7 +10,7 @@ This library contains necessary widgets for chat application ui. All the compone
 * Message Bar Widget
 * Highly Customizable
 
-<img src="https://github.com/evanemran/flutter_chat_widget/raw/master/assets/flutter_chat_widgets.png" width="450">
+<img src="https://raw.githubusercontent.com/evanemran/flutter_chat_widget/master/assets/flutter_chat_widgets.jpg" width="450">
 
 ## Getting started
 
