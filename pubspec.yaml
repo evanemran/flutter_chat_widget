@@ -1,6 +1,6 @@
 name: flutter_chat_widget
 description: A Chat WIdgets Library for Flutter Applications.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/evanemran/flutter_chat_widget
 
 environment:

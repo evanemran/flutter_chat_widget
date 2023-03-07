@@ -23,7 +23,7 @@ To use this widget there is not any special requirement. IF you have flutter ins
 Add this line to your dependencies:
 
 ```
-flutter_chat_widget: ^0.0.2
+flutter_chat_widget: ^0.0.3
 ```
 
 Then you just have to import the package with

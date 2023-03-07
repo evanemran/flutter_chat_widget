@@ -8,3 +8,6 @@
 
 * Color bug fixed
 * Demo url updated
+## 0.0.3
+
+* imports fixed
