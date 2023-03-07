@@ -26,6 +26,14 @@ Add this line to your dependencies:
 flutter_chat_widget: ^0.0.2
 ```
 
+Then you just have to import the package with
+
+```
+import 'package:flutter_chat_widget/recieved_message_widget.dart';
+import 'package:flutter_chat_widget/sent_message_widget.dart';
+import 'package:flutter_chat_widget/message_bar_widget.dart';
+```
+
 **Create Chat Bubbles**
 
 ```dart
