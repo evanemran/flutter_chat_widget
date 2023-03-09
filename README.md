@@ -23,15 +23,13 @@ To use this widget there is not any special requirement. IF you have flutter ins
 Add this line to your dependencies:
 
 ```
-flutter_chat_widget: ^0.0.3
+flutter_chat_widget: ^0.0.4
 ```
 
 Then you just have to import the package with
 
 ```
-import 'package:flutter_chat_widget/recieved_message_widget.dart';
-import 'package:flutter_chat_widget/sent_message_widget.dart';
-import 'package:flutter_chat_widget/message_bar_widget.dart';
+import 'package:flutter_chat_widget/flutter_chat_widget.dart';
 ```
 
 **Create Chat Bubbles**
